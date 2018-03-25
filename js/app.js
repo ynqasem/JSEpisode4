@@ -96,6 +96,5 @@ function editTask() {
 * - Remove the item from todoList
 ***********************************/
 function completeTask() {
-  let listItem = this.parentNode;
   // Complete me!
 };
