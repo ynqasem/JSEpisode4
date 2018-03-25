@@ -29,4 +29,4 @@ $ open index.html
 
 You're going to be editing `app.js`.
 
-You'll find the instructions on [warehouse]()
+You'll find the instructions on [warehouse](http://warehouse.joincoded.com/workshop/javascript-episode-iv/exercise/to-do-list/)
