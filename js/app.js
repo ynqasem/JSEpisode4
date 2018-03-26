@@ -76,10 +76,10 @@ function addTask() {
 * - Get the label and the input field from the list item
 * - Check if the list item is in edit mode:
 *   - Edit Mode:
-*       - set the label text to the value of editInput
+*       - set the label text to the value of the input field
 *       - set the button text to 'Edit'
 *   - !Edit Mode:
-*       - set the input field value to the value of the label
+*       - set the input field value to the text of the label
 *       - set the button text to 'Save'
 * - Toggle edit mode
 *****************************************************************/
