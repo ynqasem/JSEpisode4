@@ -61,12 +61,18 @@ function createNewTask(taskString) {
 /*****************************************************
 * Add a new task to the list:
 * - Create a new task with the value from taskInput
-* - If there is nothing in taskInput, the default is "New Task"
+* - If there is nothing in taskInput, the default 
+askNew"
 * - Append the new task to the todoList
 * - Reset the value of taskInput
 *****************************************************/
 function addTask() {
-	// Complete me!
+	if (taskInput.value) { 
+
+		todoList.appendChild(createNewTask(taskInput.value));
+	}
+
+	
 };
 
 
